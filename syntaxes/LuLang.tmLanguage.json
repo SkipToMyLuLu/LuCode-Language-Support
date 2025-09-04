@@ -2,16 +2,12 @@
     "scopeName": "source.lucode",
     "patterns": [
         {
-            "name": "keyword.lucode",
-            "match": "\\b(PRINT|ADD)\\b"
+            "name": "syntax.lucode",
+            "match": "\\b(PRINT|ADD|$DEBUG$)\\b"
         },
         {
-            "name": "string.lucode",
-            "match": "\"[^\"]*\"TEST"
-        },
-        {
-            "name": "keyword.test.lucode",
-            "match": "\\btest\\b"
+            "name": "comment.lucode",
+            "match": "\\b(//|#|!*)"
         }
     ]
 }
