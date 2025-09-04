@@ -3,11 +3,11 @@
     "patterns": [
         {
             "name": "syntax.lucode",
-            "match": "\\b(PRINT|ADD|$DEBUG$)\\b"
+            "match": "\\b(PRINT|ADD|DEBUG)\\b"
         },
         {
             "name": "comment.lucode",
-            "match": "\\b(//|#|!*)"
+            "match": "\\b(//|#|!*)\\b"
         }
     ]
 }
