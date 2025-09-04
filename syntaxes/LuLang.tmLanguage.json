@@ -1,0 +1,17 @@
+{
+    "scopeName": "source.lucode",
+    "patterns": [
+        {
+            "name": "keyword.lucode",
+            "match": "\\b(PRINT|ADD)\\b"
+        },
+        {
+            "name": "string.lucode",
+            "match": "\"[^\"]*\""
+        },
+        {
+            "name": "keyword.test.lucode",
+            "match": "\\btest\\b"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+#!/bin/sh
+# Wrapper script for LUCode interpreter
+
+# Get the directory this script is in
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+
+# Run the Python interpreter with all arguments
+python3 "$SCRIPT_DIR/../python/Interpreter.py" "$@"

@@ -1,0 +1,10 @@
+{
+  "iconDefinitions": {
+    "lucode": {
+      "iconPath": "./icons/lucode-icon.png"
+    }
+  },
+  "fileExtensions": {
+    "lucode": "lucode"
+  }
+}

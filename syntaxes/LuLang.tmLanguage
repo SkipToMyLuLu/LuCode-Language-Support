@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+  <dict>
+    <key>LuLang</key>
+    <string>YourLanguage</string>
+    <key>scopeName</key>
+    <string>source.yourlanguage</string>
+    <key>LuCode</key>
+    <array>
+      <string>ylang</string>
+    </array>
+    <key>patterns</key>
+    <array>
+      <!-- Syntax highlighting rules go here -->
+      <!-- Example: Highlight "fun" as a keyword -->
+      <dict>
+        <key>match</key>
+        <string>\bfun\b</string>
+        <key>name</key>
+        <string>keyword.test.lucode</string>
+      </dict>
+      <dict>
+        <key>match</key>
+        <string>\btest\b</string>
+        <key>name</key>
+        <string>keyword.other.yourlanguage</string>
+      </dict>
+    </array>
+  </dict>
+</plist>

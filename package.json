@@ -1,0 +1,45 @@
+{
+  "name": "lucode-support",
+  "displayName": "LuCode Support",
+  "description": "Basic support for LuCode files",
+  "version": "0.0.1",
+  "publisher": "Lucian!",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "lucode-icon-theme",
+        "label": "LuCode Icon Theme",
+        "path": "./fileicons.json"
+      }
+    ],
+    "languages": [
+      {
+        "id": "lucode",
+        "aliases": [
+          "LuCode"
+        ],
+        "extensions": [
+          ".lucode"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "lucode",
+        "scopeName": "source.lucode",
+        "path": "./syntaxes/LuLang.tmLanguage.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SkipToMyLuLu/LuCode-Language-Support.git"
+  }
+}
